@@ -2,6 +2,14 @@
   text-align: center;
 }
 
+.red{
+  color: red;
+}
+
+.bold{
+  color: blue;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +43,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.button{
+background-color :  green ;
+color : wihte;
+font: inherit;
+border: 1px solid white;
+padding: 8px;
+cursor : pointer ;
+}
+
+.button:hover {
+  background-color :lightgreen ; 
+  color : black ;
 }
